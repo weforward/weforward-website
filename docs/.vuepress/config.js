@@ -16,15 +16,40 @@ module.exports = {
 				link: 'https://github.com/weforward'
 			},
 		],
-		sidebar: [{
-				title: '服务端',
-				path: '/guide/server/'
-			},
-			{
-				title: '调用端',
-				path: '/guide/client/'
-			}
-
-		]
+		sidebar: {
+			'/guide/': getGuideSidebar('服务端', '调用端', '部署运维'),
+		}
 	}
+}
+
+function getGuideSidebar(groupA, groupB, groupC) {
+	return [{
+			title: groupA,
+			collapsable: false,
+			children: [
+				'server',
+				'service',
+				'method',
+				'access',
+				'session',
+				'resource',
+				'forward'
+			]
+		},
+		{
+			title: groupB,
+			collapsable: false,
+			children: [
+				'client'
+			]
+		},
+		{
+			title: groupC,
+			collapsable: false,
+			children: [
+				'operation'
+			]
+		},
+
+	]
 }

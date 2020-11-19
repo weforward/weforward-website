@@ -1,12 +1,13 @@
-## 入门
-[Weforward Framework Archetype](https://github.com/weforward/weforward-framework-archetype)提供了一个Maven Archetype可用于快速搭建微服务。
+# 快速开始
 
 > 先决条件
 > + JDK 1.8+
 > + Maven 3.2.5+
 > + IDE (Eclipse or Intellij IDEA等)
 
-### 创建项目
+## 创建项目
+
+[Weforward Framework Archetype](https://github.com/weforward/weforward-framework-archetype)提供了一个Maven Archetype可用于快速搭建微服务。
 
 1.命令行创建
 ```shell
@@ -34,7 +35,7 @@ New Maven Project后Next到Select an Archetype，Catalog选择Default Local，�
 
 之后点击OK，再Next...
 
-### 运行项目
+## 运行项目
 
 [Weforward Framework ](https://github.com/weforward/weforward-framework) 提供了一个运行主类cn.weforward.boot.SpringXmlApp
 
@@ -47,6 +48,6 @@ New Maven Project后Next到Select an Archetype，Catalog选择Default Local，�
 
 如何调用? [调用端 ](/guide/client/)
 
-### 构建项目
+## 构建项目
 
-TODO
+[Weforward Maven Build ](https://github.com/weforward/weforward-maven-build) 是一个maven插件可用于构建微服务项目。
