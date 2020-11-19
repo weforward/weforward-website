@@ -33,7 +33,8 @@ function getGuideSidebar(groupA, groupB, groupC) {
 				'access',
 				'session',
 				'resource',
-				'forward'
+				'forward',
+				'storage'
 			]
 		},
 		{
