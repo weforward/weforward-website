@@ -2,7 +2,7 @@
 
 当资源需要由特定实例处理时，我们可以使用转发策略，将请求转发到特定实例。
 
-## 开启支持回源
+## 开启支持转发
 
 通过调用WeforwardService的setForwardEnable可启用转发支持
 
@@ -10,7 +10,7 @@
 	<bean id="service"
 		class="cn.weforward.framework.ext.WeforwardService">
 		...
-		<property name="setForwardEnable" value="true"/>
+		<property name="forwardEnable" value="true"/>
 		...
 	</bean>
 ```

@@ -1,7 +1,6 @@
 module.exports = {
 	title: 'Weforward',
 	description: '一套开发分布式系统的支撑框架',
-	base: '/weforward-website/',
 	themeConfig: {
 		nav: [{
 				text: '首页',
