@@ -23,7 +23,7 @@
 ```java
 @WeforwardMethod
 public String helloWorld() throws ApiException {
-	throw new ForwardException("另一个服务的编号");
+	throw new ForwardException("另一个服务实例编号");
 }
 ```
 ForwardException还指供了一些快捷方法 如:
@@ -39,7 +39,7 @@ public void helloWorld() throws ApiException {
 		}
 
 		public String getDriverIt() {
-			return "另一个网关编号";
+			return "另一个服务实例编号";
 		}
 	};
 	ForwardException.forwardToIfNeed(object);
