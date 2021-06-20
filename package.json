@@ -1,6 +1,12 @@
 {
-  "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  }
+	"name": "weforward-website",
+	"version": "1.0.0",
+	"description": "weforward官网",
+	"keywords": ["weforward", "云原生", "微服务"],
+	"scripts": {
+		"docs:dev": "vuepress dev docs",
+		"docs:build": "vuepress build docs"
+	},
+	"author": "wf@weforward.cn",
+	"license": "MIT"
 }

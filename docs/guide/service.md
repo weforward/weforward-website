@@ -39,7 +39,7 @@ dependencies {
 		<constructor-arg index="1" value="${weforward.host}" />
 		<constructor-arg index="2" value="${weforward.port}" />
 		<property name="no" value="${weforward.serverid}" />
-		<property name="servicesUrl" value="${weforward.apiUrl}" />
+		<property name="gatewayUrl" value="${weforward.apiUrl}" />
 		<property name="accessId" value="${weforward.service.accessId}" />
 		<property name="accessKey" value="${weforward.service.accessKey}" />
 	</bean>

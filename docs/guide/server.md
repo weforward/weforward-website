@@ -11,14 +11,16 @@
 
 1.命令行创建
 ```shell
-mvn archetype:generate -DgroupId=my.test -DartifactId=mytest -DarchetypeGroupId=cn.weforward -DarchetypeArtifactId=weforward-framework-archetype -DarchetypeVersion=1.1.0 -DinteractiveMode=false -DarchetypeCatalog=local
+mvn archetype:generate -DgroupId=my.test -DartifactId=mytest -DarchetypeGroupId=cn.weforward -DarchetypeArtifactId=weforward-framework-archetype -DarchetypeVersion=1.2.2 -DinteractiveMode=false -DarchetypeCatalog=local
 ```
 
 2.Eclipse创建
 
 New Maven Project后Next到Select an Archetype，Catalog选择Default Local，然后点击Add Archetype，填入以下内容
 
-![](img/eclipse_1_1.jpg)
+![](img/eclipse_1_1.png)
+
+当前最新版本号为 1.2.2
 
 之后点击OK,再Next...
 
@@ -31,7 +33,9 @@ New Maven Project后Next到Select an Archetype，Catalog选择Default Local，�
 
 然后Create New Project,选择Maven，勾上Create from archetype，点击Add Archetype，输入以下内容
 
-![](img/idea_1_2.jpg)
+![](img/idea_1_2.png)
+
+当前最新版本号为 1.2.2
 
 之后点击OK，再Next...
 
